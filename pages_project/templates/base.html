@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+
+<header>
+  <a href="{% url 'home' %}"> Home</a> | <a href="{% url 'about' %}">About</a>
+</header>
+
+{% block content %} <!-- Block tag called content, can be overwritten by child templates via inheritance-->
+{% endblock %} <!--This is optional but will end the block tag -->
